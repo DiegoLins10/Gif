@@ -42,7 +42,7 @@ class _HomePageState extends State<HomePage> {
             'https://1.bp.blogspot.com/-Kp23xHdJeq4/XiBcmjvyKMI/AAAAAAAAPbE/fXCfiyF-nfs-Z3FFxOXzdiXHNi5NWPq1gCLcBGAsYHQ/s1600/Logo%2BDream%2BLeague%2BSoccer%2BZorro.png'),
         centerTitle: true,
       ),
-      backgroundColor: Colors.green,
+      backgroundColor: Colors.yellow,
       body: Column(
         children: [
           Padding(
@@ -50,7 +50,7 @@ class _HomePageState extends State<HomePage> {
             child: TextField(
               decoration: InputDecoration(
                 labelText: "Pesquise Aqui",
-                labelStyle: TextStyle(color: Colors.black),
+                labelStyle: TextStyle(color: Colors.white),
                 border: OutlineInputBorder(),
               ),
               style: TextStyle(color: Colors.white, fontSize: 18),
